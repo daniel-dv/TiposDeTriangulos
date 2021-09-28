@@ -93,7 +93,7 @@ class TrianguloTest {
 		Triangulo triangulo = new Triangulo (0,0,0);
 		assertEquals(triangulo.toString(),"El Triangulo es Invalido_Lado_Negativo_O_Cero");
 	}
-	
+	/*
 	@Test
 	void test15() {
 		Triangulo triangulo = new Triangulo (2.5,2.5,2.5);
@@ -135,4 +135,5 @@ class TrianguloTest {
 		Triangulo triangulo = new Triangulo (3,2.5,2.5);
 		assertEquals(triangulo.toString(),"El Triangulo es Invalido_DosLadosNoSonEnteros");
 	}
+	*/
 }
